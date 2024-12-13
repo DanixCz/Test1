@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.david{
+    color: rgb(59, 59, 59);
+    text-shadow: 0px 0px 0px rgb(59, 59, 59);
+
+}
+
+body{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+.proc{
+    background-color: rgb(0, 161, 0);
+    font-family: "Chakra Petch", sans-serif; 
+    color: white;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+.proc2{
+    background-color: rgb(190, 18, 18);
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#add-component{
+    border-radius: 5px;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.box{
+    width: 500px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    box-shadow: 0px 0px 4px black;;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(136, 136, 136);
+    width: 100%;
+    margin: 5px;
+    padding: 15px 0px;
+    gap: 5px;
+    box-shadow: 0px 0px 4px black;;
+}
+
+button{
+    border-radius: 5px;
+}
